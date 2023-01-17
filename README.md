@@ -17,6 +17,7 @@ This chapter presents the details of electrical equivalent circuit model of a ba
 `NyquistPlot.m` generates the Nyquist Plot based on the AC ECM model parameters.
 `SampleOCVSOCplot.m` will produce the OCV-SOC curve of the battery using the parameters given in Example 3.2.
 `BattSim.m' can be used to simulate the voltage and current across a battery. 
+`VoltageacrossRCelements.m` provides the matlab code for generating voltage across RC elements using the battery simulator.
 
 ## Chapter 04: OCV Modelling
 This chapter provides details about OCV-SOC modelling.
