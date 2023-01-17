@@ -6,7 +6,7 @@ All codes are written in MATLAB 2022a.
 Chapter 02 briefly summarizes some required mathematical concepts in estimation theory and numerical methods. 
 demoKF1.m generates the resistance and resistance change estimates for Example 2.4 using the kalman filter. 
 demoKF2.m compares the KF estimates with different process noise initializations in Example 2.5. The NIS of the filter is also plotted here to identify model-mismatch. 
-<demoKF3.m> generates the KF estimates for Example 2.6 and plots the NIS.
+'demoKF3.m' generates the KF estimates for Example 2.6 and plots the NIS.
 
 demoEKF1.m generates the state estimates for Example 2.8 using the extended kalman filter. 
 demoEKF2.m compares the EKF estimates with different process noise initializations in Example 2.9. 
