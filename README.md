@@ -13,5 +13,11 @@ demoEKF2.m compares the EKF estimates with different process noise initializatio
 demoEKF3.m generates the KF estimates for Example 2.10 and plots the NIS.
 
 # Chapter 03: Battery Modelling
+This chapter presents the details of electrical equivalent circuit model of a battery. 
+NyquistPlot.m generates the Nyquist Plot based on the AC ECM model parameters.
+SampleOCVSOCplot.m will produce the OCV-SOC curve of the battery using the parameters given in Example 3.2.
+BattSim.m can be used to simulate the voltage and current across a battery. 
 
-
+# Chapter 04: OCV Modelling
+This chapter provides details about OCV-SOC modelling.
+demoCP3.m will generate the parameter vector $k$ corresponding to the combined+3 model and generate the OCV-SOC curve.
